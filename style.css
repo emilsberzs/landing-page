@@ -1,7 +1,14 @@
 
 header {
-    background-color: gray;
+    background-color: #1f2937;
+    padding-bottom: 50px;
+    color: white;
+    padding-left:200px;
 
+}
+
+header img {
+    padding-top: 30px;
 }
 
 .navbar {
@@ -16,9 +23,10 @@ header {
     gap:20px;
 }
 
-.navbar a {
+.navbar a, .subtext {
     text-decoration: none;
-    color: white;
+    color: #e5e7eb;
+    font-size:18px;
 }
 
 .hero {
@@ -32,7 +40,7 @@ button {
     max-width: 200px;
     padding: 10px;
     border-radius: 10px;
-    background-color: blue;
+    background-color: #3882f6;
     color: white;
     font-weight: 900;
 }
@@ -42,4 +50,32 @@ button {
     flex:1;
     justify-content: space-evenly;
     padding: 30px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color:#f9faf8;
+}
+
+.flex-articles {
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    text-align: center;
+}
+
+.placeholder {
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue ;
+    border-radius:10px;
+}
+
+.article {
+    justify-content: center;
+    width: 200px;
+    justify-items: center;
 }
