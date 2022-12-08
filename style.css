@@ -1,4 +1,25 @@
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
 
+footer {
+    background-color: #1f2937;
+    text-align: center;
+    justify-content: center;
+    height: 200px;
+    margin-top: auto;
+    display: flex;
+    
+}
+footer p {
+    align-self: center;
+    font-size: 18px;
+    color:white ;
+    justify-self: center;
+
+}
 header {
     background-color: #1f2937;
     padding-bottom: 50px;
@@ -78,4 +99,52 @@ h2 {
     justify-content: center;
     width: 200px;
     justify-items: center;
+    text-justify: center;
+}
+
+p {
+    justify-items: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    height: auto;
+}
+
+.text-block {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    padding:10% 35%;
+}
+
+.text-block .author {
+    font-weight: bold;
+    text-align: right;
+}
+
+.cta {
+    font-size: 50px;
+    color:white;
+}
+
+.cta-box {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 20px;
+    padding:100px ;
+    margin:200px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.cta button {
+    border: solid white 5px;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.cta-title {
+    font-weight: bold;
 }
